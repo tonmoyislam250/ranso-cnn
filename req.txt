@@ -1,0 +1,12 @@
+pefile 
+fastapi 
+keras 
+scikit-learn
+tensorflow
+numpy
+pandas
+matplotlib
+opencv-python
+python-multipart
+seaborn
+scikit-learn==0.21.3
