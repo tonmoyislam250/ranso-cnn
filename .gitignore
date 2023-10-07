@@ -3,4 +3,4 @@ malimg_paper_dataset_imgs/
 components2/
 notebooks/
 test/
-_pycache_/
+__pycache__/
