@@ -55,5 +55,5 @@ def cnn_predict(image):
         model_path = os.path.join(workspace_dir, "components", "malware_model.h5")
         model = tf.keras.models.load_model(model_path)
         print("Model Loaded")
-    results = model.preict_classes(image)
+    results = model.predict_classes(image)
     return results

@@ -1,6 +1,3 @@
-malimg_paper_dataset_imgs/
+dataset/
 *.csv
-components2/
-notebooks/
-test/
 __pycache__/

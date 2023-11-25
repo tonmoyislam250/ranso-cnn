@@ -101,7 +101,7 @@ def getPredictions(df):
     workspace_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     scaler_pkl_path = os.path.join(workspace_dir, "components", "SScaler.pkl")
     pca_pkl_path = os.path.join(workspace_dir, "components", "PCA.pkl")
-    model_pkl_path = os.path.join(workspace_dir, "components", "model.pkl")
+    model_pkl_path = os.path.join(workspace_dir, "components", "rf_model.pkl")
     load_scaler = joblib.load(open(scaler_pkl_path, "rb"))
     load_skpca = joblib.load(open(pca_pkl_path, "rb"))
     load_model = joblib.load(open(model_pkl_path, "rb"))
