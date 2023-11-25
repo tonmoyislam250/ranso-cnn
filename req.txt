@@ -1,7 +1,6 @@
 pefile 
 fastapi 
-keras 
-scikit-learn
+keras
 tensorflow
 numpy
 pandas
